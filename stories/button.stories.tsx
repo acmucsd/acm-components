@@ -6,7 +6,7 @@ import { Button } from "../";
 storiesOf("Button", module).add("All", () => (
   <div className="storycontainer">
     <div className="story-module spaced">
-      <h3>Small Buttons (fixed)</h3>
+      <h3>Small Buttons</h3>
       <Button type="primary" size="small">
         CLICK ME
       </Button>
