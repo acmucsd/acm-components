@@ -3,7 +3,7 @@ import classnames from 'classnames';
 
 import "./styles.less";
 
-type ButtonProps = {
+type InputProps = {
   className?: string,
   type?: string,
   size?: string,
@@ -11,7 +11,7 @@ type ButtonProps = {
 }
 
 /* Default Button is medium sized */
-export const Button = ({ className, type, size, children }: ButtonProps) => {
+export const Input = ({ className, type, size, children }: InputProps) => {
   let classes = classnames("acm-btn", 
     {
       "acm-btn-primary": type === "primary",

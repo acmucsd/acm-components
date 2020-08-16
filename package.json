@@ -1,6 +1,6 @@
 {
   "name": "@acmucsd/components",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ACM Components, an extension of Ant Design",
   "main": "/lib/index.js",
   "scripts": {
